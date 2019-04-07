@@ -1,4 +1,205 @@
-Rainbow Rapture Rap
-Yellow
-blue
-purple 
+
+Pick 5 Web sites and do a "View Source" on each of them by right clicking on the page and selecting "view source" from the context menu:
+
+How many are using HTML5?
+(Hint: if you have trouble finding sites that don't use HTML5, try looking at older sites)
+How many have proper <body> and <html> close tags?
+Is there a lot of white space? Why or why not?
+
+
+<!doctype html>
+<!--Define the Angular App to Run for entirety of this HTML document and hide the loading of changes with ng-cloak-->
+<html ng-app="homeApp1" ng-cloak>
+<head>
+<title>Home - CodingTutorials360</title>
+<!-- Styling to mask loading-->
+<style>
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none;
+}
+</style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" href="font-awesome-4.6.3\css\font-awesome.min.css">
+<!-- Bootstrap Core CSS -->
+<link href="startbootstrap-landing-page-1.0.5/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="startbootstrap-landing-page-1.0.5/css/landing-page.css" rel="stylesheet">
+<link rel="icon" href="startbootstrap-landing-page-1.0.5/img/icon.png">
+</head>
+<!--Call menu controller-->
+<div ng-controller="homeCtrl1">
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+      <div class="container topnav">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand topnav" href="http://www.codingtutorials360.com">Home</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li ng-repeat="i in menuItem">
+                  <a href = "{{i.link}}">
+                {{i.name}}
+                </a>
+                </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+  </nav>
+<div class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>CodingTutorials360</h1>
+                    <hr class="intro-divider">
+                    <ul class="list-inline intro-social-buttons">
+                      </a>
+                        <li ng-repeat ="i in socialMedia">
+                            <a href="{{i.link}}" class="btn btn-default btn-lg" target="blank"><i class="{{i.logo}} "id= "{{i.style}}"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</div>
+<div class="content-section-a">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">{{mostRecentVideo.title}}</h2>
+                <p class="lead">{{mostRecentVideo.description | limitTo: 125}}{{mostRecentVideo.description.length > 125 ? '...' : ''}}</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <a href="{{mostRecentVideo.videoURL}}" target="blank">
+                <img class="img-responsive" src="{{mostRecentVideo.imageURL}}" alt="">
+              </a>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /.content-section-a -->
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Donate and Support</h2>
+                    <!-- PayPal Logo -->
+                    <table border="0" cellpadding="10" cellspacing="0" align="left">
+                      <tr><td align="left"></td></tr><tr><td align="left">
+                        <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=_puPGjIHB4m5jDtucN4igtucaPitC5EaAsWlSbeGBZHB8--IzpGA0V1refC&dispatch=5885d80a13c0db1f8e263663d3faee8d64813b57e559a2578463e58274899069"
+                        target="blank"
+                        onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup',
+                        'WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes,
+                        resizable=yes, width=1060, height=700'); return false;">
+                        <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg"
+                        border="0" alt="PayPal Logo"></a></td></tr></table><!-- PayPal Logo -->
+                        <a class ="btn btn-default btn-lg buffer" target="blank" href = "https://www.amazon.com/gp/registry/wishlist/PFVO0U724O8R/ref=topnav_lists_1"><h4>Channel Wishlist</h4><span class ="amazonIcon"><i class="fa fa-amazon fa-2x" aria-hidden="true"></i></span></a>
+                    </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                  <a href="https://www.patreon.com/codingtutorials360" target="blank"><img class="img-responsive" src="startbootstrap-landing-page-1.0.5/img/patreon.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-b -->
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">YouTube Channel Statistics</h2>
+                    <p class="lead">
+                      <ul class ="list-unstyled">
+                        <h3>
+                      <li>{{youTubeSubs.name}}: {{youTubeSubs.value | number : fractionSize}}</li>
+                      <li>{{youTubeViews.name}}: {{youTubeViews.value | number : fractionSize}}</li>
+                        <li>{{youTubeVideos.name}}: {{youTubeVideos.value | number : fractionSize}}</li>
+                      </h3>
+                    </p>
+                  </ul>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <a href="https://www.youtube.com/CodingTutorials360" target="blank"><img class="img-responsive" src="startbootstrap-landing-page-1.0.5/img/analytics.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Add, Follow, & Subscribe</h2>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-inline intro-social-buttons">
+                    </a>
+                      <li ng-repeat ="i in socialMedia">
+                          <a href="{{i.link}}" class="btn btn-default btn-lg" target="blank"><i class="{{i.logo}}" id= "{{i.style}}"></i></a>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.banner -->
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                      <li class="footer-menu-divider"><a href="http://www.codingtutorials360.com">Home</a>  &sdot;</li>
+                      <li class="footer-menu-divider" ng-repeat="i in menuItem">
+                        <a href = "{{i.link}}">
+                      {{i.name}}
+                      </a>
+                      &sdot;
+                      </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; CodingTutorials360 2015. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!-- jQuery -->
+<script src="startbootstrap-landing-page-1.0.5/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="startbootstrap-landing-page-1.0.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="http:////ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-sanitize.js"></script>
+  <!-- Load the JS Module -->
+  <script src="startbootstrap-landing-page-1.0.5/js/home.js"></script>
+</body>
+</div>
+</html>
+
+
+
