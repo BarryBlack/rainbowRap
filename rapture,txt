@@ -6,8 +6,9 @@ How many are using HTML5?
 How many have proper <body> and <html> close tags?
 Is there a lot of white space? Why or why not?
 
-
-<!doctype html>
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+SITE ONE -
+<!doctype html> <--------Means it HTML5*****************
 <!--Define the Angular App to Run for entirety of this HTML document and hide the loading of changes with ng-cloak-->
 <html ng-app="homeApp1" ng-cloak>
 <head>
@@ -203,8 +204,8 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
 
 ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
-
-
+SITE TWO 
+ Uses HT5
 https://undraw.co/ 
 
 (https://www.drawkit.io/ alternative site )
@@ -218,7 +219,276 @@ the white space was minimum I think, what I thought was it was well structured, 
 it is using html5 
 
 ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+SITE THREE
 
+
+
+http://www.111emergency.co.nz/F-I/GreertonFB.htm
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>GREERTON FIRE BRIGADE - STATION 75</title>
+<meta name="Microsoft Border" content="t, default">
+</head>
+
+<body background="../FIRE/Arapawa21-29/Karori261pale.JPG"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<table width="100%" height="53">
+	<tr>
+		<td height="49" width="100%"><center>
+		<form name="jump">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select name="menu" onChange="location=document.jump.menu.options[document.jump.menu.selectedIndex].value;" value="GO">
+			<option value>Click Here To See More Pages</option>
+			<option value="../Updates.htm">***UPDATES - WHATS NEW***</option>
+			<option value>----------AMBULANCE----------</option>
+			<option value="../N-R/NorthernAmb.htm">Northern Region Ambulance 
+			Photos</option>
+			<option value="../A-C/CentralAmb.htm">Central Region Ambulance 
+			Photos</option>
+			<option value="../S-W/WFA.htm">Wellington Free Ambulance Photos
+			</option>
+			<option value="../J-M/KapitiEMS.htm">Former Kapiti EMS Photos
+			</option>
+			<option value="../S-W/SIAmb.htm">South Island Ambulance Photos&nbsp;
+			</option>
+			<option value="../J-M/MilitaryAmb.htm">Military Ambulance Photos&nbsp;
+			</option>
+			<option value="../F-I/Fullcrewing.htm">Fullcrewing Petition 
+			Presentation</option>
+			<option value="../N-R/RescueHelicopters.htm">Rescue Helicopters
+			</option>
+			<option value="../A-C/AirAmbulance.htm">Air Ambulance Photos
+			</option>
+			<option value="../S-W/WorldAirAmb.htm">Air Ambulances From Around 
+			The World Photos</option>
+			<option value="../S-W/Vintage.html">Vintage Ambulances</option>
+			<option value="../S-W/VintageAusAmb.html">Vintage Ambulances - 
+			Australia</option>
+			<option value="../N-R/Private.html">Private Ambulances</option>
+			<option value="../F-I/history.htm">A Brief History Of Ambulances In 
+			NZ</option>
+			<option value="../A-C/AmbWorld.htm">Ambulances from around the world
+			</option>
+			<option value="../N-R/OOPS.htm">When things go wrong on the 
+			job....OOPS.</option>
+			<option value="../A-C/AccidentScenes.htm">Accident Scenes</option>
+			<option value>----------FIRE----------</option>
+			<option value="../F-I/FireRegion1.htm">Region 1 Fire Stations and 
+			Appliances</option>
+			<option value="../F-I/FireRegion2.htm">Region 2 Fire Stations and 
+			Appliances</option>
+			<option value="../F-I/FireRegion3.htm">Region 3 Fire Stations and 
+			Appliances</option>
+			<option value="../F-I/FireRegion4.htm">Region 4 Fire Stations and 
+			Appliances</option>
+			<option value="../F-I/FireRegion5.htm">Region 5 Fire Stations and 
+			Appliances</option>
+			<option value="../A-C/Airport.htm">Airport Rescue Fire Services
+			</option>
+			<option value="../F-I/FIREFIGHTERS-IN-ACTION.htm">Firefighters In 
+			Action at Fires &amp; Accident Scenes</option>
+			<option value="../S-W/VintageMuseumFire.htm">Vintage &amp; Museum Fire 
+			Appliances</option>
+			<option value="../F-I/FireWorld.htm">Fire Appliances From Around The 
+			World</option>
+			<option value>----------POLICE----------</option>
+			<option value="../N-R/PolicePatrols.htm">Police Patrol Vehicles
+			</option>
+			<option value="../N-R/Police1.htm">Police Air and Sea</option>
+			<option value="../S-W/WorldPolice.htm">Police Around the World
+			</option>
+			<option value>----------OTHER&gt;----------</option>
+			<option value="../D-E/ERTs.htm">NZ Emergency Response Teams</option>
+			<option value="../N-R/Other.htm">Other Emergency Vehicles</option>
+			<option value="../J-M/Model.htm">Models of NZ Emergency Service 
+			Vehicles</option>
+			<option value="../J-M/Manufacturers.htm">Manufacturers of Emergency 
+			Service Vehicles</option>
+			<option value="../J-M/Misc.htm">Miscellaneous Events</option>
+			<option value="../A-C/Coastguard.html">Coastguard</option>
+			<option value="../J-M/Laugh.htm">A bit of a Laugh</option>
+			<option value="../J-M/Links.htm">Links Page</option>
+			</select> </p>
+		</form>
+		</center></td>
+	</tr>
+</table>
+
+</td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+<p style="margin-top: 0; margin-bottom: 0" align="center">
+<font size="+3" color="#FF0000"><b>GREERTON FIRE BRIGADE</b></font></p>
+<p style="margin-top: 0; margin-bottom: 0" align="center"><font size="4"><b>
+Station 75. Bay of Plenty Coast Area, Region 2</b></font></p>
+<p style="margin-top: 0; margin-bottom: 0" align="center"><font size="4"><b>169 
+Maleme St, Greerton</b></font></p>
+<table BORDER="1" COLS=3 WIDTH="100%" id="table1" >
+
+<tr>
+
+<td align="center" height="166">
+<p style="margin-top: 0; margin-bottom: 0">
+<a href="../FIRE/Stations-BayWaikato/GreertonFireStn.JPG">
+<img border="0" src="../FIRE/Stations-BayWaikato/TN_GreertonFireStn.JPG" width="256" height="144"></a></td>
+
+      <td width="32%" align="center" height="65">
+        <font size="4"><b>
+        <a href="../FIRE/AppliancesF/FUL973/FUL973.JPG">
+<img border="0" src="../FIRE/AppliancesF/FUL973/TN_FUL973.JPG"  ></a></b></font></td>
+
+      <td width="33%" align="center" height="199">
+        <a href="../FIRE/AppliancesP/PA1884/PA1884.JPG">
+        <img border="0" src="../FIRE/AppliancesP/PA1884/TN_PA1884.JPG" width="256" height="158" ></a></td>
+
+</tr>
+
+<tr>
+
+<td align="center" height="38">
+<p style="margin-top: 0; margin-bottom: 0">
+<b><font size="4">Greerton Fire Station</font></b><p style="margin-top: 0; margin-bottom: 0">
+<b>Photo by Cameron Avery</b><p style="margin-top: 0; margin-bottom: 0">
+<b><a href="GreertonFireStn.htm">More pics of Greerton Fire Station</a></b></td>
+
+      <td width="32%" align="center" height="65">
+        <p style="margin-top: 0; margin-bottom: 0"><font size="4"><b>Greerton 751</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0"><font size="2"><b>Ex. Hamilton 411</b></font></p>
+      <p style="margin-top: 0; margin-bottom: 0" align="center"><font size="4"><b>
+		2011 Scania P310 DB4X2MNA</b></font></p>
+      	<p style="margin-top: 0; margin-bottom: 0" align="center">
+		<font size="4"><b>FUL 973</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0"><b>Photo by Bruce Nilson</b></p>
+		<p style="margin-top: 0; margin-bottom: 0">
+        <a href="../F-I/FUL973.htm"><b>More pics of Greerton 751</b></a></td>
+
+      <td width="33%" align="center" height="102">
+        <p style="margin-top: 0; margin-bottom: 0"><font size="4"><b>Greerton 752</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0"><font size="2"><b>Ex. 
+		Hamilton 412, Auckland Relief, Te Awamutu</b></font></p>
+        <p style="margin-top: 0; margin-bottom: 0"><b><font size="4">1989 Scania
+        G93M</font></b></p>
+        <p style="margin-top: 0; margin-bottom: 0"><b><font size="4">PA 1884</font></b><p style="margin-top: 0; margin-bottom: 0">
+		<b>Photo by Bruce Nilson</b><p style="margin-top: 0; margin-bottom: 0">
+        <a href="../N-R/PA1884.htm"><b>More pics of Greerton 752</b></a></td>
+
+</tr>
+
+<tr>
+
+      <td width="34%" align="center" height="166">
+        <a href="../FIRE/AppliancesE/EKU553/EKU553.JPG">
+		<img border="0" src="../FIRE/AppliancesE/EKU553/TN_EKU553.JPG" width="256" height="153"></a></td>
+
+      <td width="32%" align="center" height="166">
+        <a href="../FIRE/AppliancesF/FHU873/FHU873.JPG">
+        <img border="0" src="../FIRE/AppliancesF/FHU873/TN_FHU873.JPG" ></a></td>
+
+      <td width="34%" align="center" height="19">
+        <b><font size="6">Photo Required</font></b></td>
+
+</tr>
+
+<tr>
+
+      <td width="34%" align="center" height="62">
+      <p style="margin-top: 0; margin-bottom: 0"><font size="4"><b>Greerton 7511</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0"><font size="4"><b>2008 Scania 
+		P420 LB8X4MHA</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0"><font size="4"><b>EKU 553</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0"><b>Photo by Bruce Nilson</b></p>
+		<p style="margin-top: 0; margin-bottom: 0"><b>
+		<a href="../D-E/EKU553.htm">More pics of Greerton 7511</a></b></td>
+
+      <td width="32%" align="center" height="79">
+      <p style="margin-top: 0; margin-bottom: 0"><font size="4"> <b>Greerton 7518</b></font></p>
+      <p style="margin-top: 0; margin-bottom: 0"><font size="4"><b>2010 DAF LF55</b></font></p>
+      <p style="margin-top: 0; margin-bottom: 0"><font size="4"><b>FHU 873</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0"><b>Photo by Mark Eley</b></p>
+      <p style="margin-top: 0; margin-bottom: 0">
+        <a href="../F-I/FHU873.htm"><b>More pics of Greerton 7518</b></a></td>
+
+      <td width="34%" align="center" height="19">
+		<p style="margin-top: 0; margin-bottom: 0" align="center"><b>
+		<font size="4"> 
+		Greerton 7529</font></b></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="center">
+		<font size="4"><b>2014 Toyota Hilux</b></font></p>
+		<p style="margin-top: 0; margin-bottom: 0" align="center">
+		<font size="4"><b>HJT 526</b></font></td>
+
+</tr>
+
+</table>
+
+<p align="center"><a href="../F-I/FireRegion2.htm"><b>Return to Fire 
+Region 2  
+page</b></a></p>
+
+<p align="center">
+
+<a href="http://www.111emergency.co.nz">
+<img border="0" src="../111emergencybanner.JPG" width="1024" height="100"></a></p>
+
+<table BORDER COLS=3 WIDTH="100%" >
+
+<tr>
+<td>
+<p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">
+<center><b><font size=+1 color="#FF0000">Photos by Derek Quinn</font></b>
+<p style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><b>
+<font size=+1 color="#FF0000">&nbsp;unless otherwise stated</font></b></center>
+</td>
+
+<td>
+<center><p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">
+<b>Any comments? Email: <a href="mailto:derek@111Emergency.co.nz">derek@111Emergency.co.nz</a></b></center>
+<td>
+<p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">
+<center><b><font size="4" face="Courier New,Courier">Updated</font>:
+<font color="#0000FF" size="4">23 Nov 2018</font></b></center>
+</td>
+</tr>
+</table>
+
+<p></p>
+<script type="text/javascript"><!--
+google_ad_client = "pub-6414516941771089";
+google_ad_width = 120;
+google_ad_height = 60;
+google_ad_format = "120x60_as_rimg";
+google_cpa_choice = "CAEQueKXhAIaCPENV_SSZZzuKI-293M";
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><script type="text/javascript"><!--
+google_ad_client = "pub-6414516941771089";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel = "";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<script type="text/javascript"><!--
+google_ad_client = "pub-6414516941771089";
+google_ad_width = 120;
+google_ad_height = 60;
+google_ad_format = "120x60_as_rimg";
+google_cpa_choice = "CAEQuLSkgwIaCI1r6dBxV66-KMi84IEB";
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><!--msnavigation--></td></tr><!--msnavigation--></table></body></html>
+
+
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
 
 
